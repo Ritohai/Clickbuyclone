@@ -1,0 +1,59 @@
+
+.image {
+  position: relative;
+}
+.image img {
+  width: 100%;
+  height: 681px
+}
+.register-form {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.register-form label {
+  color: aliceblue;
+}
+.register-form input {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: aliceblue;
+}
+.table table {
+  margin-left: 20px;
+}
+.table th {
+  padding: 5px;
+}
+.table img {
+  width: 100%;
+  height: 100px;
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination ul li {
+  margin: 0 5px;
+}
+
+.pagination ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.pagination ul li a.active {
+  font-weight: bold;
+}
